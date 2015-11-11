@@ -3,6 +3,7 @@ import os,sys
 from sae.const import (MYSQL_HOST, MYSQL_PORT, MYSQL_USER, MYSQL_PASS, MYSQL_DB)
 
 #R2 test
+#R5 test 
 if 'SERVER_SOFTWARE' in os.environ:
     from sae.const import (MYSQL_HOST, MYSQL_PORT, MYSQL_USER, MYSQL_PASS, MYSQL_DB)
 #    MYSQL_HOST = '127.0.0.1'
